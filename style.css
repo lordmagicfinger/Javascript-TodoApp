@@ -1,0 +1,25 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#userInput, #addTaskBtn, .editBtn, .deleteBtn{
+    padding: 5px 30px;
+    font-size: 1.5rem;
+    margin-left: 40px;
+}
+#addTaskBtn, .editBtn, .deleteBtn{
+    color: #fff;
+    background-color: hsl(234, 93%, 60%);
+}
+h1{
+    margin: 10px 40px;
+}
+.listItem{
+    display: flex;
+    justify-content: space-between;
+    font-size: 2rem;
+    border: 2px solid #ddd;
+    padding: 6px;
+    margin: 10px 0;
+}
